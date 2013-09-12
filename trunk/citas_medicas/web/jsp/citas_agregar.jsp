@@ -62,7 +62,7 @@
                         <option value="beneficiario"  </option>Beneficiario
 	    	 </select>
           	<label>Documento usuario</label>
-         	 <input name="documentousuario" onmouseout="probar(this.value);" type="number" class="form-control" placeholder="Digite su numero documento" required>
+         	 <input name="documentousuario"  type="number" class="form-control" placeholder="Digite su numero documento" required>
                  <label>Fecha cita</label>
                  <input type="date" name="fechacitamedica" onchange="getDetalleturnocita('fechacitamedica',this.value)"class="form-control" onClick="" >
          	 <label>Tipo de Cita</label>
